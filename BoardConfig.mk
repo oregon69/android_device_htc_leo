@@ -67,8 +67,6 @@ BOARD_ADRENO_AVOID_EXTERNAL_TEXTURE := true
 
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60
 
-TARGET_CUSTOM_RELEASETOOL := device/htc/leo/releasetools/squisher
-
 # # cat /proc/mtd
 # dev:    size   erasesize  name
 #mtd0: 00100000 00020000 "misc"
