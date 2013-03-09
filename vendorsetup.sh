@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_leo-userdebug
+add_lunch_combo xylon_leo-userdebug

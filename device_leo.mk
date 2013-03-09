@@ -53,8 +53,8 @@ PRODUCT_COPY_FILES += \
 
 # GSM APN list
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    vendor/cm/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
+    vendor/aosp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/aosp/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -111,6 +111,6 @@ $(call inherit-product, device/htc/qsd8k-common/qsd8k.mk)
 $(call inherit-product, vendor/htc/leo/leo-vendor.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_leo
+PRODUCT_NAME := xylon_leo
 PRODUCT_DEVICE := leo
 PRODUCT_MODEL := Full Android on leo
